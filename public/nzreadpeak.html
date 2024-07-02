@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .flag {
+            background-color: white;
+            height: 100%;
+            width: 100%;
+        }
+
+        .triangle{
+            width: 0;
+            height: 0;
+        }
+
+        #black-triangle{
+            border-bottom: 500px solid transparent;
+            border-left: 450px solid black;
+            position: relative;
+        }
+
+        #blue-triangle{
+            border-bottom: 500px solid transparent;
+            border-right: 450px solid blue;
+            position: absolute;
+            top: 0px;
+            left: 450px;
+        }
+
+        #red-triangle{
+            border-left: 225px solid transparent;
+            border-right: 225px solid transparent;
+            border-bottom: 250px solid #cc0000;
+            position: absolute;
+            top: 50%;
+            left: 25%
+        }
+
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+        <a class="previous" href="./finland.html"><<</a>
+        <div class="container">
+            <div class="flag">
+                <div class="triangle" id="black-triangle"></div>
+                <div class="triangle" id="blue-triangle"></div>
+                <div class="triangle" id="red-triangle"></div>
+            </div>
+        </div>
+        <a class="next" href="./greece.html">>></a>
+        <footer>
+            <h1 class="flag-name">New Zeland - Read Peak</h1>
+        </footer>
+</body>
+</html>
